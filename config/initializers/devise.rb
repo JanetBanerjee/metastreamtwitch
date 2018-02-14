@@ -25,6 +25,6 @@ Devise.setup do |config|
 
   config.sign_out_via = :delete
 
-  config.omniauth :twitch, "qy77chdevync3a4xyrp1o7xpw922qw", "uc1hxomrqpdhmf3rmex9noa9k2me0e", response_type: 'token id_token'
+  config.omniauth :twitch, "qy77chdevync3a4xyrp1o7xpw922qw", "uc1hxomrqpdhmf3rmex9noa9k2me0e", response_type: 'id_token'
 
 end
